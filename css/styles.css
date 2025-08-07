@@ -294,3 +294,185 @@ header .container {
 .box-overlay.left {
   transform: translateX(0);
 }
+.icon-text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.25;
+  opacity: 0.7;
+}
+.icon-lable {
+  font-weight: 600;
+  line-height: 1.6;
+  opacity: 0.7;
+}
+
+/*----------------------------------------Section-4----------------------------------------------*/
+.our-clients .container {
+  padding-bottom: 210px;
+  padding-top: 210px;
+  position: relative;
+}
+.clients-title {
+  max-width: 548px;
+  margin-bottom: 40px;
+}
+.text-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.clients-text {
+  max-width: 460px;
+}
+.clients-baner {
+  position: absolute;
+  top: 170px;
+  left: 500px;
+}
+
+/*----------------------------------------Footer----------------------------------------------*/
+.down .container {
+  padding-top: 77px;
+  padding-bottom: 146px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-down-link {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.logo-down-text {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--logo);
+}
+.text-down {
+  font-weight: 450;
+  font-size: 14px;
+  opacity: 0.6;
+  max-width: 260px;
+  margin-bottom: 37px;
+}
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.address-link {
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 350ms ease;
+}
+.addres-icon {
+  fill: var(--white);
+  margin-right: 10px;
+  transition: fill 350ms ease;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover);
+}
+.address-link:hover .addres-icon,
+.address-link:focus .addres-icon {
+  fill: var(--hover);
+}
+.down-title {
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.down-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.down-list-link {
+  font-weight: 450;
+  font-size: 14px;
+  opacity: 0.6;
+  transition: color 350ms ease, opacity 350ms ease;
+}
+.down-list-link:hover,
+.down-list-link:focus {
+  color: var(--hover);
+  opacity: 0.8;
+}
+.text-dovn-right {
+  margin-bottom: 30px;
+}
+.link-kompany {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: colot 350ms ease;
+}
+.link-kompany:hover,
+.link-kompany:focus {
+  color: var(--hover);
+}
+.soc-list {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.soc-icon {
+  fill: var(--white);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 350ms ease, fill 350ms ease;
+}
+.soc-link:hover .soc-icon,
+soc-link:focus .soc-icon {
+  fill: var(--hover);
+  opacity: 1;
+}
+.select-box {
+  position: relative;
+  width: 130px;
+}
+.sel-lang {
+  width: 100%;
+  font-weight: 450;
+  font-size: 14px;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 4px 22px;
+  appearance: none;
+  cursor: pointer;
+  transition: color 350ms ease;
+}
+.sel-lang:focus {
+  outline: none;
+}
+.sel-opt {
+  background-color: var(--back);
+  color: var(--white);
+}
+.planet {
+  pointer-events: none;
+  fill: var(--white);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 350ms ease;
+}
+.scrol {
+  pointer-events: none;
+  fill: var(--white);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 350ms ease;
+}
+.sel-lang:hover {
+  color: var(--hover);
+}
+.sel-lang:hover + .icon-box-lang .planet,
+.sel-lang:hover + .icon-box-lang .scrol {
+  fill: var(--hover);
+}
